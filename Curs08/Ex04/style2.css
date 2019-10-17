@@ -1,0 +1,38 @@
+.container
+{
+    position: relative;
+    border: 1px solid red;
+}
+.nav-teo
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: blue;
+    color: brown;
+}
+.nav-teoA
+{
+    color: brown;
+}
+.span-teo
+{
+    position:absolute;
+    background:gray;
+    border: 1px solid red;
+    top: -10px;
+    left: 5px;
+    font-size: 23px;
+}
+.nav-teo ul
+{
+  list-style-type:none;
+}
+.nav-teo li
+{
+    display: inline;
+}
+.nav-teo a
+{
+    color: white;
+}

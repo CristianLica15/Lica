@@ -1,0 +1,10 @@
+#filter-plaid{
+  display: none;
+}
+
+.filter-plaid{
+  background-image:url("/proiect-tema/images/swatches/9ch6ixdy.jpg");
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
