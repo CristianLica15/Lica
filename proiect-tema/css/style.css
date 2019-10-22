@@ -8,3 +8,56 @@
   height: 35px;
   border-radius: 50%;
 }
+ul, 
+ol
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;;
+}
+ul li,
+ol li 
+{
+    margin: 0;
+    padding: 0;
+}
+a
+{
+  color: #707070;
+  text-decoration: none;
+}
+.main-nav li 
+{
+  display: inline-block;
+  margin: 0 5px;
+}
+.main-nav a 
+{
+  text-transform: uppercase;
+  padding: 10px;
+  display: block;
+  border-radius: 27px;
+}
+.main-nav a:hover
+{
+background: #FF6B6B;
+color: #fff;
+}
+.slider
+{
+  background: url("../images/banners/banner02.jpg");
+  height: 570px;
+  
+}
+.main-content
+{
+  color: #707070;
+}
+.user-profile
+{
+  color: #707070;
+}
+.phone
+{
+  color: #707070;
+}
