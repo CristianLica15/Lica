@@ -2,6 +2,12 @@ body {
   padding: 150px;
 }
 
+body>h3
+{
+  color: black;
+  display: none;
+}
+
 .box {
   width: 150px;
   height: 150px;
@@ -16,6 +22,7 @@ body {
 
 .box-2 {
   background-color: brown;
+  color: white;
 }
 
 .box-3 {
@@ -24,6 +31,7 @@ body {
 
 .box-4 {
   background-color: purple;
+  color: red;
 }
 
 .box-5 {
@@ -32,15 +40,94 @@ body {
 
 
 @media (max-width: 576px) {
-
+  .box-1
+  {
+    display: none;
+  }
+.box-2
+{
+  display: none;
+}
+body
+{
+  padding: 15px;
+}
 }
 
-@media (max-width: 768px) {
+@media (min-width: 576px)
+{
+ body > h3
+ {
+   display: block;
+ }
+}
 
+
+@media (max-width: 768px) {
+.box-5
+{
+  color: white;
+}
+.box-3
+{
+  border: 1px solid green;
+}
 }
 
 @media (max-width: 992px) {
+  .box-2
+  {
+    border: 1px solid white;
+  }
+  .box-3
+  {
+    display: none;
+  }
+.box-4
+{
+  color: black;
+  display: none;
 
 }
 
+}
 
+@media (min-width: 1000px)
+{
+  body>h3
+  {
+    color: red;
+  }
+}
+
+@media (max-width: 1200px)
+{
+  .box-5
+  {
+    display: none;
+  }
+}
+
+body > h1
+{
+  display: none;
+}
+
+@media(min-width: 600px) and (max-width: 1200px)
+{
+body > h1
+{
+  display: block;
+}
+}
+body > h2
+{
+  display: none;
+}
+@media (min-height: 500px) and (max-width: 1000px)
+{
+body > h2 
+{
+  display: block;
+}
+}

@@ -1,12 +1,23 @@
 /* add code here */
+#header h1
+{
+  color: green;
+  padding: 5px;
+  text-decoration: underline;
+}
 
-
+#para
+{
+  font-size: 25px;
+  font-style: italic;
+  color: purple;
+}
 
 /* add code here */
 
 
 h1 {
- color: red;
+ color: red ;
 }
 
 .header h1 {
