@@ -409,9 +409,73 @@ body {
 .header {
   margin-bottom: 10px;
 }
+.header-contact
+{
+  display: flex;
+  align-items: center;
 
+  float: left;
+  
+}
+.cart .cart-quantity
+{
+  background: #FF6B6B;
+  padding: 3px;
+  min-height: 20px;
+  min-width: 20px;
+  color: #fff;
+  border-radius: 20px;
+  display: inline-block;
+  text-align: center;
+  line-height: 20px;
+  font-weight: bold;
+  left: -15px;
+}
+.customer-suport .icon
+{
+  font-size: 20px;
+  color: #FF6B6B;
+
+  margin: 11px;
+  display: inline-block;
+  text-align: center;
+}
+.user-controls .icon
+{
+font-size: 20px;
+display: inline-block;
+margin-left: 5px;
+}
+.user-controls .cart .icon
+{
+  font-size: 20px;
+  
+}
+.user-controls .cart
+{
+display: inline-block;
+margin-left: 35px;
+}
+.user-controls
+{
+  float: right;
+  display: flex;
+  align-items: center;
+}
+.header-contact .icon
+{
+  color: #FF6B6B;
+  font-size: 28px;
+  display: inline-block;
+  padding-right: 5px;
+}
+.header-top
+{
+  overflow: hidden;
+}
 .logo {
   text-align: center;
+ 
 }
 
 .nav-main {
@@ -731,7 +795,7 @@ font-weight: lighter;
 .footer-top
 {
   padding-top: 40px;
-  min-height: 320px;
+  min-height: 230px;
   background: url('../images/banners/2q12iv2u.jpg') #1B1927 no-repeat top right;
 }
 .footer-top nav
@@ -754,7 +818,8 @@ margin-top: 60px;
   float: left;
   width: 285px;
   color:#AEAEAE;
-  margin-left: 120px;
+ 
+  margin: 23px 0 0 117px;
 }
 .store-contact a[href^="tel"]{
   color: #AEAEAE;
